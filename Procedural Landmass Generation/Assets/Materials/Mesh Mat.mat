@@ -8,18 +8,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mesh Mat
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4d2ac61a44074ae45bc79cc9218c343a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2DArray_de48898dfd8945348359518a24b4cc28:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_65079d8fb63d4d3583eab94499fd40ef:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -120,6 +127,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _grassTex:
+        m_Texture: {fileID: 2800000, guid: 169c57ee52f37ab48810de31fa444ba0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rockTex:
+        m_Texture: {fileID: 2800000, guid: fb64986de881e394da3d56ad154da7ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _sandTex:
+        m_Texture: {fileID: 2800000, guid: 7c9aaa067d264e2469f351ba9b28f14a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _snowTex:
+        m_Texture: {fileID: 2800000, guid: 5a5a2f0c9311f2246b0114e28fb8bc72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _waterTex:
+        m_Texture: {fileID: 2800000, guid: 1ec38a2f97afccf458b29ac4f6b3a89d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -133,6 +160,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_532429a644834b169f0ad318e2867210: 0
+    - Vector1_b4f569327f9a414cb7a51e2dd241c9ca: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -177,11 +206,25 @@ Material:
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _baseColorCount: 0
+    - _baseStartHeight: 0
+    - _grassHeight: 5
+    - _maxHeight: 87.99988
+    - _minHeight: 0
+    - _rockHeight: 30
+    - _sandHeight: 3
+    - _snowHeight: 50
+    - _waterHeight: 0
+    - maxHeight: 0
+    - minHeight: 0
     m_Colors:
+    - Vector2_e67f5c09f8224093984d3d2913a076f5: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_abf74c5ca874489587d25389b5a1be28: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _baseColors: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1234177628502014643
 MonoBehaviour:

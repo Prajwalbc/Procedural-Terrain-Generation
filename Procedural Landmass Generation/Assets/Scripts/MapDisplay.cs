@@ -20,10 +20,10 @@ public class MapDisplay : MonoBehaviour
   }
 
   //preview of texture with meshData on mesh
-  public void DrawMesh(MeshData meshData, Texture2D texture)
+  public void DrawMesh(MeshData meshData)
   {
     meshFilter.sharedMesh = meshData.CreateMesh();
-    meshRenderer.sharedMaterial.mainTexture = texture;
-    // meshRenderer.sharedMaterial.SetTexture("_BaseMap", texture);
+
+    meshFilter.transform.localScale = Vector3.one * FindObjectOfType<MapGenerator>().terrainData.uniformScale;
   }
 }
