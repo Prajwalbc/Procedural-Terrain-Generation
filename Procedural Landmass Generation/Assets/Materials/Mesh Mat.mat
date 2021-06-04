@@ -208,12 +208,12 @@ Material:
     - _ZWrite: 1
     - _baseColorCount: 0
     - _baseStartHeight: 0
-    - _grassHeight: 5
-    - _maxHeight: 87.99988
-    - _minHeight: 0
-    - _rockHeight: 30
-    - _sandHeight: 3
-    - _snowHeight: 50
+    - _grassHeight: 3
+    - _maxHeight: 40.05026
+    - _minHeight: 0.00021666288
+    - _rockHeight: 15
+    - _sandHeight: 1.5
+    - _snowHeight: 35
     - _waterHeight: 0
     - maxHeight: 0
     - minHeight: 0

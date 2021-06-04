@@ -9,19 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b0adab20bd5e5d42a38873f76d4fe7b, type: 3}
-  m_Name: Default TerrainData
+  m_Script: {fileID: 11500000, guid: 1bc937982b5198840a87f5e45dbf3e8a, type: 3}
+  m_Name: Default Height Map Settings
   m_EditorClassIdentifier: 
   autoUpdate: 0
-  uniformScale: 2
+  noiseSettings:
+    normalizeMode: 1
+    scale: 50
+    octaves: 6
+    persistance: 0.45
+    lacunarity: 2.22
+    seed: 5
+    offset: {x: 10, y: 10}
   useFalloff: 0
-  meshHeightMultiplier: 40
-  meshHeightCurve:
+  heightMultiplier: 40
+  heightCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.000005416572
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -29,26 +36,26 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.39999032
-      value: 0.026384115
-      inSlope: 1.8055929
-      outSlope: 1.8055929
+      time: 0.39999998
+      value: 0.25000376
+      inSlope: 2.2237458
+      outSlope: 2.2237458
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.07675041
-      outWeight: 0.146907
+      inWeight: 0.07395501
+      outWeight: 0.10514343
     - serializedVersion: 3
-      time: 0.77453333
-      value: 0.5265374
-      inSlope: 0.2796263
-      outSlope: 0.2796263
+      time: 0.7615977
+      value: 0.67671496
+      inSlope: 1.1067452
+      outSlope: 1.1067452
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.16649982
-      outWeight: 0.16279827
+      inWeight: 0.20141086
+      outWeight: 0.22171983
     - serializedVersion: 3
-      time: 1
-      value: 1.0999985
+      time: 1.0016077
+      value: 1.0044609
       inSlope: 2
       outSlope: 2
       tangentMode: 0
@@ -58,4 +65,3 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  useFlatShading: 1
