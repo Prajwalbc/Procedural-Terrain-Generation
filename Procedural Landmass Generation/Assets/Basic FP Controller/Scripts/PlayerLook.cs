@@ -28,6 +28,15 @@ public class PlayerLook : MonoBehaviour
   // Update
   void Update()
   {
+    if (Input.GetKey(KeyCode.Escape))
+    {
+      Cursor.lockState = CursorLockMode.None;
+    }
+    if (Input.GetKey(KeyCode.Mouse0))
+    {
+      Cursor.lockState = CursorLockMode.Locked;
+    }
+
     float mouseX = Input.GetAxisRaw("Mouse X") * XmouseSensitivity * Time.deltaTime;
     float mouseY = Input.GetAxisRaw("Mouse Y") * YmouseSensitivity * Time.deltaTime;
 

@@ -7,7 +7,7 @@ public class TerrainGenerator : MonoBehaviour
   const float viewerMoveThresholdForChunkUpdate = 25f;
   const float sqrViewerMoveThresholdForChunkUpdate = viewerMoveThresholdForChunkUpdate * viewerMoveThresholdForChunkUpdate;
 
-  public int colliderLODIndex;
+  int colliderLODIndex;
   public LODInfo[] detailLevels;
 
   public MeshSettings meshSettings;
